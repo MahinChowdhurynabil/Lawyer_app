@@ -1,0 +1,146 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 1000px;
+  font-family: "Lato", sans-serif;
+  color: aliceblue;
+}
+
+.main-container {
+  background: url("/img/lawyer-back.jpg");
+  background-size: 100%;
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.content-first {
+  display: flex;
+  margin: 0px auto;
+  width: 95%;
+  color: aliceblue;
+  margin-top: 80px;
+}
+
+.box {
+  margin-top: 30px;
+  margin: 30px;
+}
+.left-content {
+  margin: 20px;
+}
+
+.headline {
+  margin: 20px;
+}
+.box h1 {
+  margin: 0px;
+  font-size: 70px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: rgb(255, 255, 240);
+}
+
+.button {
+  margin: 20px;
+}
+.btn {
+  display: inline-block;
+  margin: 5px;
+  margin-left: 0px;
+  border: 2px solid orange;
+  padding: 10px;
+  width: 15%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#btn1 {
+  background-color: orange;
+  color: rgb(2, 0, 39);
+  transition: 250ms;
+}
+
+#btn2 {
+  color: orange;
+}
+#btn1:hover {
+  background: none;
+  color: orange;
+}
+
+.social {
+  padding: 100px;
+  margin-left: 50px;
+}
+
+li {
+  margin: 12px;
+  color: rgb(162, 162, 162);
+  list-style: none;
+  cursor: pointer;
+}
+
+.content-second {
+  display: flex;
+  width: 87%;
+  height: 130px;
+  margin: -30px auto;
+}
+
+.firstcon {
+  display: flex;
+  position: relative;
+}
+
+.conicon {
+  color: orange;
+  font-size: 25px;
+  margin: 20px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+.contact-us {
+  line-height: 10px;
+}
+
+.secondcon {
+  display: flex;
+  position: relative;
+}
+h3 {
+  color: rgb(162, 162, 162);
+}
+
+.services {
+  display: flex;
+  margin-left: 300px;
+  height: 130px;
+  width: 60%;
+}
+
+.service-box {
+  color: #343434;
+  border: 0.25px solid #efefef;
+  background: white;
+  text-align: center;
+  padding: 40px;
+  width: 15%;
+  line-height: 10px;
+  transition: 500ms;
+}
+
+.service-icon {
+  font-size: 30px;
+}
+
+#box-4 {
+  border: none;
+  background: orange;
+  color: aliceblue;
+}
+
+.service-box:hover {
+  opacity: 80%;
+}
