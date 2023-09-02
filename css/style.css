@@ -353,3 +353,73 @@ span {
   color: rgb(107, 107, 107);
   line-height: 25px;
 }
+
+.contact-info {
+  position: relative;
+  margin: 130px;
+  margin-bottom: -415px;
+  width: 30%;
+  height: 50%;
+  padding: 15px;
+  background: rgb(92%, 59%, 0%);
+}
+
+.contact-form {
+  position: unset;
+  margin: 0px auto;
+  width: 89%;
+  height: 50%;
+  margin-top: -90px;
+  background: rgb(48, 54, 73);
+}
+
+.contact-mediums {
+  margin: 40px;
+  color: white;
+}
+.con-icon {
+  display: inline;
+  font-size: 25px;
+}
+
+.con-detail {
+  margin-top: -32px;
+  margin-left: 40px;
+}
+
+.con-detail h2 {
+  margin-top: 0px;
+}
+
+.inputs {
+  padding: 50px;
+  margin-left: 500px;
+}
+
+.inputs h1 {
+  margin: 10px;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+input {
+  width: 30%;
+  padding: 15px;
+  background: none;
+  border: 1px solid rgb(92, 92, 92);
+  margin: 10px;
+  color: #efefef;
+}
+#massege {
+  width: 69%;
+}
+
+.message-btn {
+  background: orange;
+  color: white;
+  border: 2px solid orange;
+  transition: 250ms;
+}
+.message-btn:hover {
+  background: none;
+  color: orange;
+}
