@@ -140,3 +140,132 @@ h3 {
 .service-box:hover {
   opacity: 80%;
 }
+
+.NY {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+
+.support {
+  position: relative;
+  margin: 100px auto;
+  width: 90%;
+  height: 25%;
+  background: rgb(48, 54, 73);
+}
+
+.support-content {
+  display: flex;
+  padding: 80px;
+  padding-top: 100px;
+}
+
+.sendmsg {
+  display: inline;
+  font-size: 30px;
+  margin-right: 90px;
+}
+
+.msgdes {
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 90px;
+  color: rgb(162, 162, 162);
+}
+
+.support-btn {
+  display: inline-block;
+  padding: 15px;
+  height: 22px;
+  width: 125px;
+  text-align: center;
+  color: white;
+  background: orange;
+  border: 2px solid orange;
+  transition: 250ms;
+}
+
+.support-btn:hover {
+  border: 2px solid orange;
+  background: none;
+  color: rgb(209, 115, 0);
+}
+
+span {
+  text-decoration: underline orange;
+  text-underline-offset: 15px;
+}
+
+.featured-law-service {
+  position: inherit;
+  margin-top: -220px;
+  background-color: rgb(97%, 97%, 97%);
+  text-align: center;
+}
+
+.featuredlawservice {
+  padding-top: 200px;
+  margin: 15px;
+  font-size: 50px;
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: rgb(2, 1, 25);
+}
+
+.featured-law-service article {
+  font-size: 20px;
+  line-height: 20px;
+  color: rgb(68, 68, 68);
+  font-stretch: narrower;
+}
+
+.all-services {
+  display: flex;
+  margin: 50px auto;
+  padding-bottom: 150px;
+  width: 88%;
+  justify-content: space-between;
+}
+
+.service {
+  height: 376px;
+  width: 31%;
+}
+
+.service img {
+  position: relative;
+  width: 100%;
+}
+
+.lawyer-box {
+  position: relative;
+  margin: -175px auto;
+  width: 90%;
+  height: 60%;
+  background: white;
+  border-top: 5px solid orange;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.layer-services {
+  margin: 40px;
+}
+
+.layer-services h1 {
+  font-size: 20px;
+}
+
+.descr {
+  color: rgb(121, 121, 121);
+}
+
+.view-more {
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  margin: 2px;
+  color: black;
+}
