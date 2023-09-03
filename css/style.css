@@ -14,20 +14,20 @@ body {
 .content-first {
   display: flex;
   margin: 0px auto;
-  width: 95%;
+  width: 89%;
   color: aliceblue;
 }
 
 .box {
-  margin: 30px;
+  margin-bottom: 16px;
   margin-top: 120px;
 }
 .left-content {
-  margin: 20px;
+  margin-bottom: 16px;
 }
-
 .headline {
-  margin: 20px;
+  margin-bottom: 18px;
+  color: rgb(162, 162, 162);
 }
 .box h1 {
   margin: 0px;
@@ -36,12 +36,9 @@ body {
   color: rgb(255, 255, 240);
 }
 
-.button {
-  margin: 20px;
-}
 .btn {
   display: inline-block;
-  margin: 5px;
+  margin: 10px;
   margin-left: 0px;
   border: 2px solid orange;
   padding: 10px;
@@ -79,7 +76,7 @@ li {
 
 .content-second {
   display: flex;
-  width: 87%;
+  width: 89%;
   margin: 0px auto;
   margin-top: 50px;
 }
@@ -224,7 +221,7 @@ span {
   display: flex;
   margin: 50px auto;
   padding-bottom: 150px;
-  width: 88%;
+  width: 89%;
   justify-content: space-between;
 }
 
@@ -241,7 +238,7 @@ span {
 .lawyer-box {
   position: relative;
   margin: -175px auto;
-  width: 90%;
+  width: 89%;
   height: 60%;
   background: white;
   border-top: 5px solid orange;
@@ -278,7 +275,7 @@ a {
 .our-features {
   display: flex;
   margin: 0px auto;
-  width: 90%;
+  width: 89%;
   margin-top: 100px;
 }
 
