@@ -402,7 +402,7 @@ span {
 }
 
 input {
-  width: 30%;
+  width: 40%;
   padding: 15px;
   background: none;
   border: 1px solid rgb(92, 92, 92);
@@ -422,4 +422,12 @@ input {
 .message-btn:hover {
   background: none;
   color: orange;
+}
+
+textarea {
+  margin: 10px;
+  background: transparent;
+  width: 94%;
+  border: 1px solid rgb(92, 92, 92);
+  font-family: "Lato", sans-serif;
 }
